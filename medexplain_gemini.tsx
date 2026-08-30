@@ -103,12 +103,13 @@ export default function App(){
   const applyPreset=ss=>{setSymptoms(ss.map(n=>({name:n,duration:""})));setResult(null);setSideOpen(false);setDurPicker(null);};
 
   /* ── FASTAPI SECURE BACKEND CALL (ML, SHAP, and Gemini Pipeline) ── */
+  const API_URL = "https://medexplain-ai-ewbd.onrender.com";
   const analyze=async()=>{
     if(!symptoms.length)return;
     setLoading(true);setError("");setResult(null);
     try{
       const res=await fetch(
-        `http://localhost:8000/api/analyze`,
+        `${API_URL}/api/analyze`,
         {method:"POST",headers:{"Content-Type":"application/json"},
          body:JSON.stringify({
            symptoms: symptoms.map(s => ({name: s.name, duration: s.duration})),
@@ -127,7 +128,7 @@ export default function App(){
       if(isMobile)setSideOpen(false);
     }catch(e){
       if(e.message.includes("Failed to fetch")||e.message.includes("NetworkError")){
-        setError("Network error: Cannot reach MedExplain AI Backend. Make sure the FastAPI server is running on http://localhost:8000.");
+        setError(`Network error: Cannot reach MedExplain AI Backend (${API_URL}). Please verify your connection.`);
       }else{
         setError(`❌ ${e.message}`);
       }

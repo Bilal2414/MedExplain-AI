@@ -30,12 +30,8 @@ export interface PredictResponse {
   disclaimer: string;
 }
 
-const API_BASE_URL = typeof window !== "undefined" && (
-    window.location.hostname === "localhost" ||
-    window.location.hostname === "127.0.0.1"
-  )
-  ? `http://${window.location.hostname}:8000/api`
-  : "/api";
+const API_URL = "https://medexplain-ai-ewbd.onrender.com";
+const API_BASE_URL = `${API_URL}/api`;
 
 function getAuthHeaders(): HeadersInit {
   const headers: Record<string, string> = {

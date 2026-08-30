@@ -370,7 +370,7 @@ export default function App() {
       }
     } catch (e: any) {
       if (e.message?.includes("Failed to fetch") || e.message?.includes("NetworkError")) {
-        setError("Network error: Cannot reach the MedExplain AI Backend. Make sure the FastAPI server is running on http://localhost:8000.");
+        setError("Network error: Cannot reach the MedExplain AI Backend. Please check your internet connection or verify the backend service status.");
       } else {
         setError(`❌ ${e.message}`);
       }
