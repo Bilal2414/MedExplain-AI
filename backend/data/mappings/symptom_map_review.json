@@ -1,0 +1,57 @@
+[
+  {
+    "frontend_symptom": "Dry cough",
+    "possible_dataset_symptom": "cough",
+    "reason_for_uncertainty": "Dataset only has a generic 'cough' column and does not distinguish dry vs productive cough. Productive cough is mapped to 'cough' + 'phlegm'."
+  },
+  {
+    "frontend_symptom": "Productive cough",
+    "possible_dataset_symptom": "cough",
+    "reason_for_uncertainty": "Productive cough maps to 'cough' and 'phlegm' dataset columns. Phlegm indicates productivity, but this is a multi-feature mapping."
+  },
+  {
+    "frontend_symptom": "Abdominal cramps",
+    "possible_dataset_symptom": "cramps",
+    "reason_for_uncertainty": "Dataset 'cramps' column is generic and could refer to muscle cramps rather than abdominal cramps."
+  },
+  {
+    "frontend_symptom": "Muscle cramps",
+    "possible_dataset_symptom": "cramps",
+    "reason_for_uncertainty": "Dataset 'cramps' is ambiguous and could denote abdominal cramps instead of skeletal muscle cramps."
+  },
+  {
+    "frontend_symptom": "Fever",
+    "possible_dataset_symptom": "mild_fever",
+    "reason_for_uncertainty": "Dataset splits fever into 'mild_fever' and 'high_fever'. Standard 'Fever' has no direct middle-ground mapping in dataset."
+  },
+  {
+    "frontend_symptom": "Rigors",
+    "possible_dataset_symptom": "shivering",
+    "reason_for_uncertainty": "Shivering is a physiological response, whereas Rigors are sudden cold chills with violent shaking. Medical equivalence is close but not exact."
+  },
+  {
+    "frontend_symptom": "Weight gain",
+    "possible_dataset_symptom": "obesity",
+    "reason_for_uncertainty": "Obesity is a chronic medical state, while weight gain is a symptom or process. They are related but not medically equivalent."
+  },
+  {
+    "frontend_symptom": "Rash with fever",
+    "possible_dataset_symptom": "skin_rash",
+    "reason_for_uncertainty": "Dataset contains separate 'skin_rash' and 'high_fever' columns but no compound indicator for 'Rash with fever'."
+  },
+  {
+    "frontend_symptom": "Vaginal discharge",
+    "possible_dataset_symptom": "bladder_discomfort",
+    "reason_for_uncertainty": "Vaginal discharge arises from reproductive origins, whereas bladder discomfort is urological. They are separate organ systems."
+  },
+  {
+    "frontend_symptom": "Morning stiffness",
+    "possible_dataset_symptom": "movement_stiffness",
+    "reason_for_uncertainty": "Dataset has 'movement_stiffness' which is generic, whereas morning stiffness is a specific hallmark of rheumatoid arthritis."
+  },
+  {
+    "frontend_symptom": "Eye pain",
+    "possible_dataset_symptom": "pain_behind_the_eyes",
+    "reason_for_uncertainty": "Pain behind the eyes (retro-orbital pain, classic in Dengue) is distinct from generic ocular surface eye pain."
+  }
+]

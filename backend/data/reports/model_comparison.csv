@@ -1,0 +1,9 @@
+Mode,Model,Train_Accuracy,Val_Accuracy,Val_Precision,Val_Recall,Val_Macro_F1,Val_Weighted_F1
+Mode A (With Duplicates),Logistic Regression,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+Mode A (With Duplicates),Support Vector Machine,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+Mode A (With Duplicates),Random Forest,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+Mode A (With Duplicates),XGBoost,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+Mode B (Leak-free / Unique Profiles),Logistic Regression,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+Mode B (Leak-free / Unique Profiles),Support Vector Machine,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+Mode B (Leak-free / Unique Profiles),Random Forest,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000
+Mode B (Leak-free / Unique Profiles),XGBoost,1.0000,0.8749,0.8374,0.8634,0.8306,0.8547

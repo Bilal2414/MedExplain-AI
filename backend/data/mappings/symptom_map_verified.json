@@ -1,0 +1,218 @@
+{
+  "Itching": [
+    "itching"
+  ],
+  "Rash": [
+    "skin_rash"
+  ],
+  "Sneezing": [
+    "continuous_sneezing"
+  ],
+  "Chills": [
+    "chills"
+  ],
+  "Joint pain": [
+    "joint_pain"
+  ],
+  "Vomiting": [
+    "vomiting"
+  ],
+  "Fatigue": [
+    "fatigue"
+  ],
+  "Weight loss": [
+    "weight_loss"
+  ],
+  "Unintentional weight loss": [
+    "weight_loss"
+  ],
+  "Cough": [
+    "cough"
+  ],
+  "Dry cough": [
+    "cough"
+  ],
+  "High fever": [
+    "high_fever"
+  ],
+  "Shortness of breath": [
+    "breathlessness"
+  ],
+  "Excessive sweating": [
+    "sweating"
+  ],
+  "Headache": [
+    "headache"
+  ],
+  "Jaundice (skin)": [
+    "yellowish_skin"
+  ],
+  "Dark urine": [
+    "dark_urine"
+  ],
+  "Nausea": [
+    "nausea"
+  ],
+  "Loss of appetite": [
+    "loss_of_appetite"
+  ],
+  "Back pain": [
+    "back_pain"
+  ],
+  "Constipation": [
+    "constipation"
+  ],
+  "Abdominal pain": [
+    "abdominal_pain"
+  ],
+  "Diarrhea": [
+    "diarrhoea"
+  ],
+  "Low-grade fever": [
+    "mild_fever"
+  ],
+  "Malaise": [
+    "malaise"
+  ],
+  "Blurred vision": [
+    "blurred_and_distorted_vision"
+  ],
+  "Sore throat": [
+    "throat_irritation"
+  ],
+  "Red eyes": [
+    "redness_of_eyes"
+  ],
+  "Nasal congestion": [
+    "congestion",
+    "sinus_pressure"
+  ],
+  "Runny nose": [
+    "runny_nose"
+  ],
+  "Chest pain": [
+    "chest_pain"
+  ],
+  "Weakness in limbs": [
+    "weakness_in_limbs"
+  ],
+  "Blood in stool": [
+    "bloody_stool"
+  ],
+  "Neck pain": [
+    "neck_pain"
+  ],
+  "Dizziness": [
+    "dizziness"
+  ],
+  "Swelling in legs": [
+    "swollen_legs"
+  ],
+  "Spider veins": [
+    "swollen_blood_vessels"
+  ],
+  "Goiter": [
+    "enlarged_thyroid"
+  ],
+  "Ankle swelling": [
+    "swollen_extremeties"
+  ],
+  "Excessive hunger": [
+    "excessive_hunger"
+  ],
+  "Slurred speech": [
+    "slurred_speech"
+  ],
+  "Knee pain": [
+    "knee_pain"
+  ],
+  "Muscle weakness": [
+    "muscle_weakness"
+  ],
+  "Neck stiffness": [
+    "stiff_neck"
+  ],
+  "Swollen joints": [
+    "swelling_joints"
+  ],
+  "Stiffness": [
+    "movement_stiffness"
+  ],
+  "Vertigo": [
+    "spinning_movements"
+  ],
+  "Balance problems": [
+    "loss_of_balance"
+  ],
+  "Loss of coordination": [
+    "loss_of_balance"
+  ],
+  "Smell loss": [
+    "loss_of_smell"
+  ],
+  "Urinary urgency": [
+    "continuous_feel_of_urine"
+  ],
+  "Flatulence": [
+    "passage_of_gases"
+  ],
+  "Depression": [
+    "depression"
+  ],
+  "Irritability": [
+    "irritability"
+  ],
+  "Muscle aches": [
+    "muscle_pain"
+  ],
+  "Myalgia": [
+    "muscle_pain"
+  ],
+  "Confusion": [
+    "altered_sensorium"
+  ],
+  "Disorientation": [
+    "altered_sensorium"
+  ],
+  "Irregular periods": [
+    "abnormal_menstruation"
+  ],
+  "Polyuria": [
+    "polyuria"
+  ],
+  "Poor concentration": [
+    "lack_of_concentration"
+  ],
+  "Vision changes": [
+    "visual_disturbances"
+  ],
+  "Loss of consciousness": [
+    "coma"
+  ],
+  "Abdominal distension": [
+    "distention_of_abdomen"
+  ],
+  "Hemoptysis": [
+    "blood_in_sputum"
+  ],
+  "Palpitations": [
+    "palpitations"
+  ],
+  "Difficulty walking": [
+    "painful_walking"
+  ],
+  "Acne": [
+    "pus_filled_pimples",
+    "blackheads"
+  ],
+  "Skin peeling": [
+    "skin_peeling"
+  ],
+  "Psoriasis plaques": [
+    "silver_like_dusting"
+  ],
+  "Nail changes": [
+    "small_dents_in_nails",
+    "inflammatory_nails"
+  ]
+}
